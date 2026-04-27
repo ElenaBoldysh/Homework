@@ -2,11 +2,6 @@ public class Dog extends Animal {
     private int maxRunDistance = 500;
     private int maxSwimDistance = 10;
 
-
-    /*public Dog(String name, int runDistance, int swimDistance) {
-        super(name, runDistance, swimDistance);
-    }*/
-
     public void getInform(String name, int runDistance, int swimDistance) {
         if (runDistance >= 0 && runDistance <= maxRunDistance & swimDistance >= 0 && swimDistance <= maxSwimDistance) {
             System.out.println("Пёс " + name + " пробежал " + runDistance + " м. и проплыл " + swimDistance + " м.");
@@ -29,10 +24,3 @@ public class Dog extends Animal {
         return dogCount;
     }
 }
-
-    /*public static void main(String[] args) {
-       Dog[] dog = new Dog[3];
-        dog [0] = new Dog ("Барбос", 500,8);
-        dog [1] = new Dog ("Шарик", 400, 5);
-        dog [2] = new Dog ("Фёдор", 300, 4);
-   }*/

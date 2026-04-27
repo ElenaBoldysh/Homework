@@ -17,10 +17,6 @@ public class Animal {
         animalCount++;
     }
 
-    /*public Animal(String name) {
-        this.name = name;
-    }*/
-
     public void getInform(String name, int runDistance) {
         System.out.println("Кот " + name + " пробежал " + runDistance + " м.");
     }
@@ -32,5 +28,4 @@ public class Animal {
     public static int getAnimalCount() {
         return animalCount;
     }
-
 }
