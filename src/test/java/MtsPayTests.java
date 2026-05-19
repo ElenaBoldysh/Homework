@@ -32,4 +32,5 @@ public class MtsPayTests extends BaseTest{
         mainPageService.openPageAndAcceptCookie()
                 .inputCorrectValues(number, sum, email);
    }
+
 }
