@@ -9,5 +9,4 @@ public class Constants {
     public static final String EXPECTED_LOGO3 = "MasterCard";
     public static final String EXPECTED_LOGO4 = "MasterCard Secure Code";
     public static final String EXPECTED_LOGO5 = "Белкарт";
-
 }

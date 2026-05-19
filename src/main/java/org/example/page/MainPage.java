@@ -99,5 +99,4 @@ public class MainPage extends BasePage{
     public String getFrameLink() {
         return payFrame.getAttribute("src");
     }
-
 }

@@ -30,5 +30,4 @@ public class MainPageService {
         mainPage.clickPayButton();
         return new FramePageService();
     }
-
 }

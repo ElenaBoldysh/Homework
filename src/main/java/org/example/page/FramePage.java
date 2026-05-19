@@ -19,5 +19,4 @@ public class FramePage extends BasePage {
     public WebElement nameOnTheCard;
     @FindBy(xpath = "//span[@class='icons-container ng-tns-c2312288139-2']")
     public WebElement picOfPaySyst;
-
 }

@@ -16,5 +16,4 @@ public class BaseTest {
     public void stopBrowser() {
         MtsOnlinePay.quitDriver();
     }
-
 }

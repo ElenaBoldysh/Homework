@@ -14,5 +14,4 @@ public class Waiter {
         return new WebDriverWait(MtsOnlinePay.getDriver(), Duration.ofSeconds(WAIT_3_SECONDS))
                 .until(ExpectedConditions.invisibilityOf(element));
     }
-
 }
